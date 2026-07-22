@@ -1,0 +1,33 @@
+body {
+    background-color: #131e33;
+}
+
+h1 {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(175, 209, 238);
+    padding: 50px;
+    font-size: 2.25em;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.centerblock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar {
+    text-align: center;
+    font-family: timesnewroman, times, serif;
+    margin:15px;
+    color:#131e33;
+    background-color: rgb(175, 209, 238);
+}
