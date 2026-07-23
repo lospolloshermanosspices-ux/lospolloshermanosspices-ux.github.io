@@ -14,7 +14,7 @@ p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
-    margin: 10px;
+    margin:auto;
     padding: 20px;
 }
 
@@ -24,10 +24,36 @@ p {
     margin-right: auto;
 }
 
-#navbar {
-    text-align: center;
-    font-family: timesnewroman, times, serif;
-    margin:15px;
-    color:#131e33;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: rgb(175, 209, 238);
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #131e33;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-image: url('/assets/bluemountain.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #131e33;
+}
+
+ul li a#bob:hover {
+    background-image: url('https://media.tenor.com/cH5ZZ-QGAN8AAAAe/shrek.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
